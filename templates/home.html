@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>TQ-SentymentAnalysis </title>
+    <style type="text/css">
+
+#emojiPic {
+  float: none;
+  position: relative;
+  text-align: center;
+}
+
+#Title {
+  font-family: "Gotham Bold";
+  font-size: x-large;
+  text-align: center;
+  color: #1f2ea4;
+  font-weight: bold;
+  float: none;
+  display: grid;
+}
+
+#note {
+  font-family: "Gotham Bold";
+  font-size: small;
+}
+
+#send-button {
+  float: none;
+}
+
+</style></head>
+  <body id="Title">
+    <p> TWITTER SEARCH SENTIMENT ANALYSIS <span style="font-family: monospace;"></span></p>
+    <p>
+      <p id="emojiPic"><img src="/static/emojis.png" alt="Emojis Sentiment Analysis" height="250" width="535" /></p>
+  </p>
+    <form action = "http://localhost:5000/loading" method = "GET">
+      <p> Consulta: <input type = "text" name = "query" /></p>
+      <p><input type = "submit" value = "¡Analizar!" /></p>
+    </form>
+    <p id="note">Nota* - La cadena que introduzca puede usar cualquiera de
+      las opciones de <a href="https://help.twitter.com/es/using-twitter/twitter-advanced-search" target="_blank">búsqueda
+        avanzada</a> ofrecidas por Twitter.</p>
+
+      <p>Sistemas Distribuidos - Universidad de Cádiz 2017/2018 </p>
+      <p>Desarrollado por Miguel Ángel Álvarez García y Ana Gómez González </p>
+
+
+  </body>
+</html>
