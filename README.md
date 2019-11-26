@@ -8,7 +8,7 @@ Analizador de sentimientos a partir de una recolección de tweets sobre el térm
 ### Autores
 
 * **Miguel Ángel Álvarez García** - [GitHub](https://github.com/IamMiguelAA)
-* **Ana Góemez González** - [GitHub](https://github.com/angoglez)
+* **Ana Gómez González** - [GitHub](https://github.com/angoglez)
 
 
 ### Tecnologías utilizadas
